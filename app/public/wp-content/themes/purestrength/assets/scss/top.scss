@@ -1,0 +1,1212 @@
+@charset "utf-8";
+
+@import "variable";
+@import "basic/mixin";
+@import "basic/selector";
+
+
+/*==================================================================================================
+    サイト基礎
+==================================================================================================*/
+body {
+}
+
+
+/*==================================================================================================
+    main
+==================================================================================================*/
+.top-main {
+}
+
+.about-sec {
+    background: url(../img/top/about_bg.svg) no-repeat;
+    background-position: bottom center;
+    background-size: 100% auto;
+    padding: 3em 15px calc(1em + 5vw);
+    margin-bottom: -10vw;
+    position: relative;
+    z-index: 1;
+    @include max-screen($screen-sm) {
+        padding-top: 1em;
+    }
+    &__ttl {
+        text-align: center;
+        font-size: (48em/16);
+        font-family: $ZenM-font;
+        margin-bottom: 0.75em;
+        letter-spacing: -0.0em;
+        span {
+            display: block;
+            font-size: (50em/48);
+        }
+        @include max-screen($screen-sm) {
+            font-size: (24em/8);
+        }
+        @include max-screen($screen-xs) {
+            font-size: (16em/8);
+        }
+    }
+    &__img {
+        display: block;
+        margin: 0 auto;
+        @include min-screen($screen-sm + 1) {
+            max-width: 1028px;
+            width: percentage(1028/1880);
+        }
+    }
+}
+
+.about2-sec {
+    //background: linear-gradient(90deg,rgba(213, 196, 165, 1) 1%, rgba(243, 237, 228, 1) 50%, rgba(235, 226, 211, 1) 100%);
+    background: url(../img/top/about2_bg.png) no-repeat;
+    background-position: bottom center;
+    background-size: 100% auto;
+    padding: calc(2em + 10vw) 15px calc(1em + 5vw) 37%;
+    @include max-screen($screen-sm) {
+        background-image: url(../img/top/about2_bg_sp.png);
+        padding-left: 15px;
+        padding-bottom: calc(1em + 35vw);
+    }
+    &__ttl {
+        font-size: (38em/16);
+        font-family: $ZenM-font;
+        margin-bottom: 0.75em;
+        letter-spacing: -0.0em;
+        color: #4d4d4d;
+        @include max-screen($screen-xs) {
+            font-size: (17em/8);
+        }
+    }
+    &__txt {
+        font-size: (20em/16);
+        line-height: (44/20);
+        font-weight: 500;
+        margin-bottom: 1em;
+        @include max-screen($screen-xs) {
+            font-size: (12.5em/8);
+            line-height: (55/25);
+        }
+    }
+    &__note {
+        font-size: (15em/16);
+        font-weight: 500;
+        @include max-screen($screen-xs) {
+            text-align: right;
+            font-size: (11em/8);
+        }
+    }
+}
+
+.news-sec {
+    padding: 2em 15px 4em;
+    &.--page {
+        padding: 5em 15px;
+        @include max-screen($screen-sm) {
+            font-size: (10em/8);
+        }
+        .news-list {
+            li {
+                @include max-screen($screen-sm) {
+                    padding: 1em 0.5em;
+                }
+            }
+        }
+    }
+    &__ttl {
+        text-align: center;
+        font-family: $Dosis-font;
+        font-size: (38em/16);
+        color: $aqa;
+        letter-spacing: 0.2em;
+        margin-bottom: 1em;
+        @include max-screen($screen-sm) {
+            font-size: (24em/8);
+            margin-bottom: 0.25em;
+        }
+    }
+}
+
+.news-list {
+    max-width: 960px;
+    margin: 0 auto;
+    font-size: (18em/16);
+    @include max-screen($screen-xs) {
+        font-size: (12em/8);
+    }
+    li {
+        border-bottom: 1px solid #CCC;
+        padding: (20em/18);
+        display: flex;
+        align-items: center;
+        position: relative;
+        @include max-screen($screen-sm) {
+            align-items: flex-start;
+            padding: 0.5em;
+        }
+        &.new {
+            &:after {
+                background: $red;
+            }
+        }
+        &:first-child {
+            border-top: 1px solid #CCC;
+        }
+        time {
+            display: block;
+            margin-right: 3em;
+            font-weight: 500;
+            font-family: $ZenM-font;
+            @include max-screen($screen-sm) {
+                margin-right: 2em;
+            }
+        }
+        a {
+            font-weight: 500;
+            &:hover {
+                color: $aqa;
+            }
+            @include min-screen($screen-sm + 1) {
+                flex: 1;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            @include max-screen($screen-sm) {
+                width: 100%;
+            }
+        }
+    }
+}
+.news-more {
+    text-align: center;
+    font-weight: 500;
+    font-size: (20em/16);
+    margin-top: 2em;
+    font-family: $ZenM-font;
+    @include max-screen($screen-xs) {
+        font-size: (14em/8);
+    }
+    a {
+        display: inline-block;
+        color: #FFF;
+        background: $aqa;
+        border-radius: 50em;
+        width: (252em/20);
+        padding: 0.25em;
+        &:hover {
+        }
+    }
+}
+
+.camp-area {
+    picture {
+    }
+    &__btn {
+        margin-top: calc(-2em - 6vw);
+        padding: calc(4em + 6vw) 15px 2em;
+        background: #f5f5f5;
+        a {
+            display: block;
+            width: (344em/16);
+            margin: 0 auto;
+        }
+    }
+    &__txt {
+        text-align: center;
+        color: #444;
+        font-size: 1.4em;
+        font-family: 500;
+        margin-bottom: 1em;
+    }
+}
+
+.appeal-sec {
+    padding: 5em 15px 0;
+    @include max-screen($screen-xs) {
+        padding-top: 3em;
+    }
+    &__ttl {
+        text-align: center;
+        font-size: (40em/16);
+        font-family: $ZenM-font;
+        letter-spacing: -0.02em;
+        line-height: 1.4;
+        margin-bottom: 1em;
+        @include max-screen($screen-sm) {
+            font-size: (15em/8);
+        }
+        span {
+            font-size: (60em/40);
+            @include max-screen($screen-sm) {
+                font-size: (26em/12);
+            }
+        }
+    }
+}
+.appeal-cont {
+    margin-top: 4em;
+    @include max-screen($screen-sm) {
+        margin-top: 2em;
+    }
+    &__ttl {
+        width: (194em/16);
+        margin: 0 auto 1em;
+        @include max-screen($screen-sm) {
+            width: (90em/8);
+        }
+    }
+}
+.appeal-area {
+    background: url(../img/top/appeal_area_bg.png);
+    background-size: percentage(192/1920) auto;
+    margin: 0 -15px;
+    padding: 2em 15px 3em;
+    &__ttl {
+        text-align: center;
+        font-family: $ZenM-font;
+        font-size: (70em/16);
+        line-height: 1.6;
+        letter-spacing: -0.02em;
+        @include max-screen($screen-sm) {
+            font-size: (25em/8);
+            letter-spacing: -0.05em;
+            margin-bottom: 0.5em;
+        }
+    }
+    &__txt {
+        text-align: center;
+        font-family: $ZenM-font;
+        font-size: (35em/16);
+        font-weight: bold;
+        margin-bottom: 1em;
+        @include max-screen($screen-sm) {
+            font-size: (14em/8);
+            letter-spacing: -0.02em;
+        }
+    }
+    &__img01 {
+        display: block;
+        max-width: 1137px;
+        width: percentage(1137/1890);
+        margin: 2em auto 0;
+        @include max-screen($screen-sm) {
+            width: 100%;
+        }
+    }
+}
+
+.dakara-sec {
+    background: url(../img/top/dakara_bg.svg) no-repeat;
+    background-size: 100% auto;
+    background-position: bottom center;
+    text-align: center;
+    padding: 0 15px calc(3em + 8vw);
+    font-family: $ZenM-font;
+    @include max-screen($screen-sm) {
+        padding-bottom: calc(3em + 4vw);
+    }
+    &__ttl {
+        font-size: (87em/16);
+        transform: rotate(-5deg);
+        margin-bottom: 0.5em;
+        @include max-screen($screen-sm) {
+            font-size: (48em/8);
+            margin-bottom: 0.25em;
+        }
+    }
+    &__txt {
+        font-size: (38em/16);
+        font-weight: 600;
+        line-height: 1.6;
+        letter-spacing: -0.02em;
+        @include max-screen($screen-sm) {
+            font-size: (12em/8);
+        }
+        span {
+            display: block;
+            font-size: (63em/38);
+            @include max-screen($screen-sm) {
+                font-size: (23em/12);
+            }
+        }
+    }
+}
+
+.comfort-sec {
+    padding: 0 0 4em;
+    &__ttl {
+        text-align: center;
+        font-family: $Dosis-font;
+        font-size: (38em/16);
+        color: $aqa;
+        letter-spacing: 0.05em;
+        margin-bottom: 0;
+        font-weight: 500;
+        @include max-screen($screen-sm) {
+            font-size: (22em/8);
+        }
+    }
+    &__img {
+        position: relative;
+        z-index: 1;
+    }
+    &__madori {
+        display: block;
+        max-width: 1000px;
+        width: percentage(1000/1920);
+        margin: -1vw auto 0;
+        @include max-screen($screen-sm) {
+            width: 100%;
+            padding: 1.5em 15px;
+            margin-top: 0;
+        }
+    }
+}
+.comfort-icon {
+    max-width: 1000px;
+    width: percentage(1000/1920);
+    margin: 3em auto 0;
+    padding: 0 15px;
+    @include max-screen($screen-sm) {
+        width: 100%;
+        margin-top: 2em;
+    }
+    &__ttl {
+        text-align: center;
+        color: #4d4d4d;
+        font-size: (31em/16);
+        position: relative;
+        letter-spacing: 0.15em;
+        padding: 0 0 0.75em;
+        margin-bottom: 2em;
+        @include max-screen($screen-sm) {
+            font-size: (16em/8);
+        }
+        &:before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: #4d4d4d;
+        }
+        &:after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 0;
+            transform: translate(-50%,100%);
+            border-width: (20em/31) (15em/31) 0;
+            border-color: #4d4d4d transparent transparent transparent;
+            border-style: solid;
+        }
+    }
+}
+.facility-sec {
+    background: url(../img/top/facility_bg.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1044px;
+    max-height: 100vh;
+    padding: 0 15px;
+    position: relative;
+    @include max-screen($screen-sm) {
+        max-height: 75vh;
+    }
+    @include max-screen($screen-xs) {
+        max-height: 50vh;
+    }
+    &__ttl {
+        max-width: 1100px;
+        width: percentage(1100/1920);
+        margin: 0 auto;
+        font-size: (144em/16);
+        font-weight: 400;
+        line-height: 1.6;
+        font-family: $Dosis-font;
+        color: rgba(#FFF,0.95);
+        text-shadow: (-5em/144) (5em/144) (10em/144) rgba(#000,.25);
+        @include max-screen($screen-sm) {
+            width: 100%;
+            font-size: (80em/8);
+        }
+        @include max-screen($screen-xs) {
+            font-size: (50em/8);
+        }
+    }
+    &__txt {
+        max-width: 1000px;
+        width: percentage(1100/1920);
+        margin: 0 auto 1em;
+        font-family: $ZenM-font;
+        color: $aqa;
+        font-weight: bold;
+        font-size: (32em/16);
+        letter-spacing: -0.02em;
+        @include max-screen($screen-sm) {
+            width: 100%;
+            font-size: (22em/8);
+        }
+        @include max-screen($screen-xs) {
+            font-size: (14em/8);
+        }
+        span {
+            display: inline-block;
+            background: rgba(#FFF,0.8);
+            margin-bottom: 0.25em;
+            padding: 0 0.25em;
+        }
+    }
+    &__note {
+        max-width: 1100px;
+        width: 90%;
+        position: absolute;
+        left: 50%;
+        bottom: 1em;
+        transform: translate(-50%,0);
+        text-align: right;
+        font-size: (14em/16);
+        font-weight: 600;
+    }
+}
+
+.gym-sec {
+    background: url(../img/top/gym_bg.png) no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+    padding: 1em 15px calc(5em + 10vw);
+    margin-bottom: calc(-5em - 10vw);
+    position: relative;
+    z-index: 1;
+    @include max-screen(1440px) {
+        padding-bottom: 14vw;
+        margin-bottom: -16vw;
+    }
+    @include max-screen($screen-sm) {
+        background-image: url(../img/top/gym_bg_sp.png);
+        background-position: center bottom;
+        padding: 0 15px 55vw;
+        margin-bottom: -10vw;
+    }
+    &__ttl {
+        text-align: center;
+        margin: 0 auto;
+        font-size: (120em/16);
+        line-height: 1.6;
+        font-weight: 400;
+        margin-bottom: 0.25em;
+        font-family: $Dosis-font;
+        color: rgba(#FFF,0.8);
+        @include max-screen($screen-sm) {
+            font-size: (50em/8);
+        }
+    }
+    &__logo {
+        width: (210em/16);
+        margin: 0 auto -4.5em;
+        @include max-screen($screen-sm) {
+            width: (90em/8);
+            margin-bottom: 0;
+        }
+    }
+    &__txt {
+        color: #FFF;
+        font-size: (44em/16);
+        font-family: $ZenM-font;
+        letter-spacing: -0.02em;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @include max-screen($screen-sm) {
+            font-size: (18em/8);
+        }
+        img {
+            width: (240em/44);
+            vertical-align: middle;
+            margin-right: 0.25em;
+            @include max-screen($screen-sm) {
+                width: (120em/18);
+                margin-right: 0.5em;
+            }
+        }
+    }
+}
+.gym-area {
+    display: block;
+    margin: 0 -0 0;
+    img {
+        width: 100%;
+    }
+}
+.gym-lineup {
+    display: block;
+    max-width: 1121px;
+    width: percentage(1121/1920);
+    margin: 1em auto 3em;
+    @include max-screen($screen-sm) {
+        width: 95%;
+    }
+}
+.studio-sec {
+    background: url(../img/top/studio_bg.png) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    padding: 0 15px 32vw;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    @include max-screen($screen-sm) {
+        background-image: url(../img/top/studio_bg_sp.png);
+        padding-bottom: 25vw;
+    }
+    &__ttl {
+        text-align: center;
+        margin: 0 auto;
+        font-size: (144em/16);
+        font-weight: 400;
+        font-family: $Dosis-font;
+        color: rgba(#FFF,0.8);
+        line-height: 1.4;
+        @include max-screen($screen-sm) {
+            font-size: (50em/8);
+        }
+    }
+    &__logo {
+        width: (590em/16);
+        margin: 0 auto 0;
+        @include max-screen($screen-sm) {
+            width: (223em/8);
+            margin-bottom: 0;
+        }
+    }
+    &__read {
+        font-size: (22em/16);
+        display: inline-block;
+        border-radius: 0.75em;
+        border: 1px solid #FFF;
+        color: #FFF;
+        font-weight: 600;
+        padding: 0.25em 1.25em;
+        margin-bottom: 1em;
+        @include max-screen($screen-sm) {
+            font-size: (11em/8);
+            margin-bottom: 45vw;
+        }
+    }
+    &__txt {
+        color: #FFF;
+        font-family: $ZenM-font;
+        font-size: (44em/16);
+        font-weight: 600;
+        line-height: 1.4;
+        margin-bottom: 1em;
+        @include max-screen($screen-sm) {
+            font-size: (18em/8);
+        }
+    }
+    &__abs {
+        position: absolute;
+        bottom: 0;
+        left: 20%;
+        color: #FFF;
+        font-size: (41em/16);
+        font-weight: 600;
+        text-align: left;
+        transform: rotate(-3.6deg);
+        @include max-screen($screen-sm) {
+            left: 1em;
+            font-size: (16em/8);
+        }
+        span {
+            display: inline-block;
+            background: #e7317d;
+            padding: 0 0.5em;
+            &:not(:first-child) {
+                margin-top: 0.25em;
+            }
+        }
+    }
+}
+.studio-area {
+    background: #f2f3f3;
+    padding: 4em 15px 0;
+    margin-bottom: 4em;
+    @include max-screen($screen-sm) {
+        padding: 2em 15px 0;
+    }
+    &__head {
+        display: flex;
+        align-items: center;
+        max-width: 1060px;
+        width: percentage(1060/1890);
+        margin: 0 auto 2em;
+        @include max-screen($screen-sm) {
+            width: 100%;
+            display: block;
+        }
+    }
+    &__logo {
+        width: percentage(380/1060);
+        margin-right: 3%;
+        @include max-screen($screen-sm) {
+            width: 50%;
+            margin: 0 auto 2em;
+        }
+    }
+    &__read {
+        flex: 1;
+        .ttl {
+            font-size: (32em/16);
+            font-weight: 600;
+            margin-bottom: 0.25em;
+            @include max-screen($screen-sm) {
+                font-size: (16em/8);
+                text-align: center;
+            }
+        }
+        .txt {
+            font-size: (19em/16);
+            @include max-screen($screen-sm) {
+                font-size: (12em/8);
+            }
+        }
+    }
+}
+.studio-cont {
+    display: flex;
+    align-items: center;
+    max-width: 1100px;
+    width: percentage(1100/1890);
+    margin: 0 auto 1em;
+    @include max-screen($screen-sm) {
+        width: 100%;
+        display: block;
+        margin-bottom: 3em;
+    }
+    figure {
+        width: percentage(640/1100);
+        margin-right: 1%;
+        @include max-screen($screen-sm) {
+            width: 100%;
+        }
+    }
+    .logo {
+        margin-bottom: 2em;
+        @include max-screen($screen-sm) {
+            margin-bottom: 1em;
+            padding-left: 3%;
+        }
+        img {
+            width: 95%;
+            @include max-screen($screen-sm) {
+                width: 60%;
+            }
+        }
+    }
+    &__info {
+        margin-top: 1em;
+        flex: 1;
+        @include max-screen($screen-sm) {
+            padding-left: 3%;
+            padding-right: 1%;
+            margin-top: 0;
+        }
+        .txt {
+            font-size: (18em/16);
+            font-weight: 500;
+            line-height: 2em;
+            @include max-screen($screen-sm) {
+                font-size: (12em/8);
+            }
+        }
+    }
+}
+.studio-tri {
+    background: url(../img/top/studio_bg2.png) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    padding: 17vw 15px 0;
+    margin: -10vw -15px 0;
+    @include max-screen($screen-sm) {
+        padding-top: 30vw;
+    }
+    figure {
+        max-width: 940px;
+        width: percentage(940/1920);
+        margin: 0 auto 12vw;
+        @include max-screen($screen-sm) {
+            margin-bottom: 5vw;
+            width: auto;
+        }
+    }
+}
+.lesson-area {
+    background: $yel;
+    text-align: center;
+    margin: 0 -15px;
+    padding: 2em 15px;
+    &__txt {
+        font-size: (32em/16);
+        font-weight: 500;
+        color: #4d4d4d;
+        margin-bottom: 0.5em;
+        @include max-screen($screen-sm) {
+            font-size: (14em/8);
+        }
+    }
+    &__btn {
+        width: (400em/16);
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.sec {
+    margin-top: 5em;
+    margin-bottom: 5em;
+    &__ttl {
+        background: url(../img/top/about_bg.svg) no-repeat;
+        background-position: bottom center;
+        background-size: 100% auto;
+        padding: 1vw 15px calc(0em + 4vw);
+        margin-bottom: 0.5em;
+        position: relative;
+        z-index: 1;
+        font-size: (120em/16);
+        text-align: center;
+        font-family: $Dosis-font;
+        line-height: 1.4;
+        font-weight: 500;
+        @include max-screen($screen-sm) {
+            font-size: (45em/8);
+        }
+        span {
+            display: block;
+            text-align: center;
+            font-size: (48em/120);
+            font-family: $ZenM-font;
+            font-weight: 500;
+            line-height: 1.4;
+            @include max-screen($screen-sm) {
+                font-size: (30em/45);
+            }
+            @include max-screen($screen-xs) {
+                font-size: (16em/45);
+            }
+        }
+    }
+    &__txt {
+        text-align: center;
+        font-size: (28em/16);
+        color: #4d4d4d;
+        font-weight: bold;
+        margin-bottom: 1em;
+        @include max-screen($screen-sm) {
+            font-size: (14em/9);
+        }
+    }
+}
+
+.other-area {
+    margin-top: 5em;
+    @include max-screen($screen-sm) {
+        margin-top: 3em;
+        margin-bottom: 5em;
+    }
+    &:nth-of-type(even) {
+        @include min-screen($screen-sm + 1) {
+            .other-area__ttl {
+                background: #fff659;
+                &:after {
+                    border-color: #fff659 transparent transparent transparent;
+                }
+            }
+        }
+    }
+    &__ttl {
+        text-align: center;
+        margin-bottom: (38em/16);
+        @include min-screen($screen-sm + 1) {
+            position: relative;
+            background: #90d7f5;
+            &:after {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                width: 0;
+                height: 0;
+                transform: translate(-50%,100%);
+                border-width: (38em/16) (55em/16) 0;
+                border-color: #90d7f5 transparent transparent transparent;
+                border-style: solid;
+            }
+        }
+        picture {
+            display: block;
+            margin: 0 auto;
+            max-width: 1070px;
+        }
+    }
+    &__img {
+        display: block;
+        max-width: 1070px;
+        width: percentage(1070/1920);
+        margin: 0 auto;
+        padding: 0 15px;
+        @include max-screen($screen-sm) {
+            width: auto;
+        }
+        &.--md {
+            max-width: 1550px;
+            width: percentage(1550/1920);
+            @include max-screen($screen-sm) {
+                width: auto;
+            }
+        }
+        &.--lg {
+            max-width: 1260px;
+            width: percentage(1260/1920);
+            @include max-screen($screen-sm) {
+                width: auto;
+                padding: 0 2% 0 0;
+            }
+        }
+    }
+    &__bdy {
+        background: url(../img/top/appeal_area_bg.png);
+        background-size: percentage(192/1920) auto;
+        margin: (-38em/16) 0 0;
+        padding: 3em 15px 3em;
+        @include max-screen($screen-sm) {
+            margin: (-76em/16) 0 0;
+            padding: 3em 0;
+        }
+    }
+}
+
+.price-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 1070px;
+    width: percentage(1070/1920);
+    @include max-screen($screen-sm) {
+        width: 95%;
+    }
+}
+
+.faq-list {
+    transition: .3s;
+    max-width: 1180px;
+    width: percentage(1180/1920);
+    margin: 0 auto;
+    @include max-screen($screen-xs) {
+        width: auto;
+    }
+    &:not(:last-child) {
+        margin-bottom: 3em;
+        @include max-screen($screen-sm) {
+            margin-bottom: 1em;
+        }
+    }
+    &[open] {
+    }
+    &__head {
+        font-size: (22em/16);
+        padding: (20em/22) (20em/22) (20em/22) (150em/22);
+        width: auto;
+        position: relative;
+        font-weight: bold;
+        cursor: pointer;
+        background: #cdedfb;
+        font-family: $ZenM-font;
+        @include max-screen($screen-sm) {
+            font-size: (12em/8);
+            padding-left: (35em/8);
+        }
+        &:before {
+            content: "Q";
+            font-family: $Dosis-font;
+            font-weight: 500;
+            font-size: (62em/22);
+            line-height: 0;
+            position: absolute;
+            top: 0.6em;
+            left: 1.6em;
+            @include max-screen($screen-sm) {
+                left: 0.75em;
+            }
+        }
+    }
+    &__body {
+        background: #efefef;
+        font-size: (20em/16);
+        padding: (25em/20) (20em/20) (25em/20) (180em/20);
+        margin-top: 0;
+        position: relative;
+        font-weight: 500;
+        white-space: pre-wrap;
+        @include max-screen($screen-sm) {
+            font-size: (12em/8);
+            padding-left: (50em/8);
+        }
+        &:before {
+            content: "A";
+            font-family: $Dosis-font;
+            color: $aqa;
+            font-weight: 500;
+            font-size: (60em/20);
+            line-height: 0;
+            position: absolute;
+            top: 0.6em;
+            left: 2.2em;
+            @include max-screen($screen-sm) {
+                left: 1.25em;
+            }
+        }
+        a {
+            text-decoration: underline;
+            color: $gre;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.access-area {
+    max-width: 1130px;
+    width: percentage(1130/1890);
+    padding: 0 15px;
+    margin: 0 auto;
+    @include max-screen($screen-sm) {
+        width: auto;
+    }
+    .access-cont {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 2em;
+        @include max-screen($screen-sm) {
+            display: block;
+        }
+        &__logo {
+            width: percentage(466/1100);
+            @include max-screen($screen-sm) {
+                width: percentage(378/720);
+                margin: 0 auto;
+            }
+        }
+        &__info {
+            width: percentage(580/1100);
+            @include max-screen($screen-sm) {
+                width: percentage(574/720);
+                margin: 0 auto;
+            }
+            .access-place {
+                margin-top: 2em;
+                display: flex;
+                align-items: center;
+                figure {
+                    width: percentage(153/560);
+                    margin-right: 2%;
+                    @include max-screen($screen-sm) {
+                        width: percentage(153/574);
+                    }
+                }
+                p {
+                    font-size: (20em/16);
+                    flex: 1;
+                    @include max-screen($screen-sm) {
+                        font-size: (12em/8);
+                    }
+                }
+            }
+        }
+    }
+    &__note {
+        border: 1px solid #333a46;
+        padding: 0.5em 1em;
+        font-size: (21em/16);
+        text-align: center;
+        @include max-screen($screen-sm) {
+            width: percentage(574/720);
+            margin: 0 auto;
+            font-size: (12em/8);
+
+        }
+    }
+}
+
+.map-cont {
+    position: relative;
+    margin: 0;
+    height: 0;
+    padding-top: 30%;
+    @include max-screen($screen-xs) {
+        padding-top: 100%;
+    }
+    iframe {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+
+
+.sec-single {
+    padding: 5em 15px;
+    &__ttl {
+        text-align: center;
+        margin-bottom: 2em;
+        &__en {
+            display: block;
+            font-size: (48em/16);
+            font-family: $ZenM-font;
+            position: relative;
+        }
+    }
+}
+
+.single-area,
+.page-area {
+    @include max-screen($screen-xl) {
+        font-size: (12em/8);
+    }
+    max-width: 1000px;
+    margin: 0 auto 5em;
+    &__date {
+        text-align: right;
+        margin-bottom: 1em !important;
+    }
+    > * {
+        font-family: "Noto Sans JP", sans-serif;
+        &:not(:last-child) {
+            margin-bottom: 1em;
+        }
+    }
+    a {
+        color: $ora;
+        text-decoration: underline;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    ul {
+        list-style-type: disc;
+        padding-left: 1.5em;
+    }
+    ol {
+        list-style-type: decimal;
+        padding-left: 1.5em;
+    }
+    li {
+        + li {
+            margin-top: 0.5em;
+        }
+    }
+    h2,h3,h4,h5,h6 {
+        font-weight: bold;
+        margin-bottom: 1.5em !important;
+        &:not(:first-child) {
+            margin-top: 3em;
+        }
+    }
+    h2 {
+        font-size: (24em/16);
+        background: #f2f2f2;
+        border-left: (6em/24) solid $ora;
+        padding: 0.75em 0.5em;
+    }
+    h3 {
+        font-size: (20em/16);
+        background: $ora;
+        color: #FFF;
+        padding: 0.5em 0.75em;
+    }
+    h4 {
+        font-size: (20em/16);
+        border-bottom: 2px solid $ora;
+        padding: 0.5em 0;
+    }
+    h5 {
+        font-size: (16em/16);
+        background: #f2f2f2;
+        padding: 0.75em 0.5em;
+    }
+    h6 {
+        font-size: (16em/16);
+    }
+}
+
+.page-area {
+    > * {
+        &:not(:last-child) {
+            margin-bottom: 1em;
+        }
+    }
+    h2,h3,h4,h5,h6 {
+        margin-bottom: 1em !important;
+        &:not(:first-child) {
+            margin-top: 2em;
+        }
+    }
+}
+
+.wp-pagenavi {
+	margin: 40px auto;
+	font-size: 12px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: $aqa;
+	a {
+		color: $aqa;
+	}
+	span.current,
+	a.page,
+	span.pages {
+		margin: 0 5px;
+		border: solid 1px $aqa;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		text-align: center;
+		box-sizing: border-box;
+		justify-content: center;
+		display: flex;
+		align-items: center;
+		transition: .3s;
+	}
+	span.current {
+    background: $aqa;
+    color: #fff;
+	}
+	span.pages {
+		border: 0px;
+	}
+	a.page {
+		background: none;
+		&:hover {
+			color: $aqa;
+		}
+	}
+	.first,
+	.extend {
+			margin-right: 10px;
+	}
+	.previouspostslink,
+	.nextpostslink {
+			display: none;
+	}
+}

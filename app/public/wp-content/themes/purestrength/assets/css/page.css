@@ -1,0 +1,261 @@
+.alignC {
+  text-align: center !important;
+}
+
+.alignR {
+  text-align: right !important;
+}
+
+.alignL {
+  text-align: left !important;
+}
+
+.bold {
+  font-weight: bold !important;
+}
+
+/*==================================================================================================
+
+==================================================================================================*/
+.sec {
+  padding: 4em 20px;
+}
+@media screen and (max-width: 640px) {
+  .sec {
+    padding: 3em 20px;
+  }
+}
+.sec__ttl {
+  text-align: center;
+  margin-bottom: 2em;
+}
+.sec__ttl__en {
+  display: block;
+  font-size: 3em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  position: relative;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.4em;
+}
+.sec__ttl__en::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: calc(50% + 0.3333333333em);
+  width: 0.3333333333em;
+  height: 0.0833333333em;
+  background: #000;
+}
+.sec__ttl__en::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 0.3333333333em);
+  width: 1em;
+  height: 0.0833333333em;
+  background: #ff9c00;
+}
+.sec__ttl__jp {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.news-list {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.25em;
+}
+.news-list li {
+  border-bottom: 2px solid #ff9c00;
+  padding: 0 0 0.75em;
+  margin-bottom: 0.75em;
+}
+.news-list li time {
+  color: #ff9c00;
+  font-weight: bold;
+  display: block;
+}
+.news-list li a:hover {
+  color: #ff9c00;
+}
+
+.column-list {
+  max-width: 1200px;
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+@media screen and (max-width: 640px) {
+  .column-list {
+    width: 100%;
+  }
+}
+.column-list li {
+  margin-bottom: 3%;
+  font-weight: 500;
+}
+@media screen and (min-width: 641px) {
+  .column-list li {
+    width: 31%;
+  }
+  .column-list li:not(:nth-of-type(3n+1)) {
+    margin-left: 3.5%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .column-list li {
+    width: 100%;
+    margin-bottom: 10%;
+  }
+}
+.column-list__img {
+  margin-bottom: 0.5em;
+}
+.column-list__img img {
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+  width: 100% !important;
+  height: 250px !important;
+}
+@media screen and (max-width: 1366px) {
+  .column-list__img img {
+    height: 15.625vw !important;
+  }
+}
+@media screen and (max-width: 640px) {
+  .column-list__img img {
+    height: 59.8453333333vw !important;
+    height: 50vw !important;
+  }
+}
+.column-list__time {
+  font-size: 1em;
+  color: #CCC;
+}
+.column-list__ttl {
+  font-size: 1.25em;
+  line-height: 1.4;
+  font-weight: 500;
+  margin-top: 0.5em;
+  font-weight: bold;
+}
+.column-list__txt {
+  font-size: 1.125em;
+  margin-top: 0.5em;
+}
+.column-list .news-more {
+  text-align: left;
+  margin-top: 1em;
+}
+
+.single-area,
+.page-area {
+  max-width: 1000px;
+  margin: 0 auto 5em;
+}
+.single-area__date,
+.page-area__date {
+  text-align: right;
+  margin-bottom: 3em !important;
+}
+.single-area > *,
+.page-area > * {
+  font-family: "Noto Sans JP", sans-serif;
+}
+.single-area > *:not(:last-child),
+.page-area > *:not(:last-child) {
+  margin-bottom: 1em;
+}
+.single-area a,
+.page-area a {
+  color: #ff9c00;
+  text-decoration: underline;
+}
+.single-area a:hover,
+.page-area a:hover {
+  text-decoration: none;
+}
+.single-area ul,
+.page-area ul {
+  list-style-type: disc;
+  padding-left: 1.5em;
+}
+.single-area ol,
+.page-area ol {
+  list-style-type: decimal;
+  padding-left: 1.5em;
+}
+.single-area li + li,
+.page-area li + li {
+  margin-top: 0.5em;
+}
+.single-area h2, .single-area h3, .single-area h4, .single-area h5, .single-area h6,
+.page-area h2,
+.page-area h3,
+.page-area h4,
+.page-area h5,
+.page-area h6 {
+  font-weight: bold;
+  margin-bottom: 1.5em !important;
+}
+.single-area h2:not(:first-child), .single-area h3:not(:first-child), .single-area h4:not(:first-child), .single-area h5:not(:first-child), .single-area h6:not(:first-child),
+.page-area h2:not(:first-child),
+.page-area h3:not(:first-child),
+.page-area h4:not(:first-child),
+.page-area h5:not(:first-child),
+.page-area h6:not(:first-child) {
+  margin-top: 3em;
+}
+.single-area h2,
+.page-area h2 {
+  font-size: 1.5em;
+  background: #f2f2f2;
+  border-left: 0.25em solid #ff9c00;
+  padding: 0.75em 0.5em;
+}
+.single-area h3,
+.page-area h3 {
+  font-size: 1.25em;
+  background: #ff9c00;
+  color: #FFF;
+  padding: 0.5em 0.75em;
+}
+.single-area h4,
+.page-area h4 {
+  font-size: 1.25em;
+  border-bottom: 2px solid #ff9c00;
+  padding: 0.5em 0;
+}
+.single-area h5,
+.page-area h5 {
+  font-size: 1em;
+  background: #f2f2f2;
+  padding: 0.75em 0.5em;
+}
+.single-area h6,
+.page-area h6 {
+  font-size: 1em;
+}
+
+.page-area > *:not(:last-child) {
+  margin-bottom: 1em;
+}
+.page-area h2, .page-area h3, .page-area h4, .page-area h5, .page-area h6 {
+  margin-bottom: 1em !important;
+}
+.page-area h2:not(:first-child), .page-area h3:not(:first-child), .page-area h4:not(:first-child), .page-area h5:not(:first-child), .page-area h6:not(:first-child) {
+  margin-top: 2em;
+}

@@ -1,0 +1,119 @@
+<?php
+require_once __DIR__ . '/../formbuilder/controller/ContactForm.php';
+$form = new \ContactForm();
+?>
+<!DOCTYPE html>
+<html lang="ja"><!-- InstanceBegin template="/Templates/base.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<title>お問い合わせ - 地域最大級本格24時間ジムピュアストレングス伊豆長岡</title>
+<meta name="description" content="「伊豆長岡」初！！ 比べたらわかる地域最大級の本格24時間ジムPURE STRENGTH 2020.7.3 GRAND-OPEN！">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no,address=no,email=no">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<!-- InstanceBeginEditable name="head0" -->
+<!-- InstanceEndEditable -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+<link rel="stylesheet" href="../shared/css/default.css">
+<link rel="stylesheet" href="../shared/css/shared.css">
+<link rel="stylesheet" href="../shared/css/sp.css">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PQPM4DN');</script>
+<!-- End Google Tag Manager -->
+<!-- Global site tag (gtag.js) - Google Ads: 663120809 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-663120809"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-663120809');
+</script>
+<!-- InstanceBeginEditable name="head" -->
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<!-- InstanceEndEditable -->
+<!-- InstanceParam name="title" type="text" value="お問い合わせ" -->
+<!-- InstanceParam name="bodyid" type="text" value="base" -->
+</head>
+<body id="base" class="drawer drawer--top">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PQPM4DN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<header>
+<div>
+<p id="hlogo"><a href="../index.html"><img src="../shared/img/logo01.svg" alt="ピュアストレングス伊豆長岡"></a></p>
+<nav id="gnav-wrap">
+<ul id="gnav">
+<li><a href="../index.html">Top</a></li>
+<li><a href="../index.html#top-sec01">Merit</a></li>
+<li><a href="../index.html#top-sec02">About_us</a></li>
+<li><a href="../index.html#top-sec03">Price</a></li>
+<li><a href="../index.html#top-sec05">Faq</a></li>
+<li><a href="../index.html#top-access">Access</a></li>
+</ul>
+</nav>
+<ul id="hnav">
+<li class="no01"><a href="https://www.isslim.jp/slim/web/d/index.php/WCM0400E/WCM0400E000/?c=Yb3kP5uDm7&f=00001" target="_blank" onclick="gtag_report_conversion('https://www.isslim.jp/slim/web/d/index.php/WCM0400E/WCM0400E000/?c=Yb3kP5uDm7&f=00001');">WEB入会はコチラ</a></li>
+<li class="no02"><a href="../contact/">お問合せはコチラ</a></li>
+</ul>
+</div>
+<button type="button" class="drawer-toggle drawer-hamburger">
+<span class="sr-only">menu</span>
+<span class="drawer-hamburger-icon"></span>
+</button>
+</header>
+<main>
+<div id="content"><!-- InstanceBeginEditable name="content" -->
+<div id="pttl">
+<h1>お問い合わせ</h1>
+</div>
+<div id="contact-sec01" class="form">
+<?php echo $form->getFormDisplay(); ?>
+</div>
+<!-- InstanceEndEditable --></div>
+</main>
+<footer>
+<div>
+<address>
+<p>運営会社／ストレングス・フィット合同会社</p>
+</address>
+<ul id="fsns">
+<li><a href="https://www.facebook.com/purestrength.official/" target="_blank"><img src="../shared/img/sns-fb.svg" alt="Facebook"></a></li>
+<li><a href="https://www.instagram.com/purestrength_official/" target="_blank"><img src="../shared/img/sns-ig.svg" alt="Instagram"></a></li>
+</ul>
+</div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll-lite.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+<!-- InstanceBeginEditable name="body-ft" -->
+<!-- InstanceEndEditable -->
+<script src="../shared/js/shared.js"></script>
+<!-- Event snippet for 入会フォームへのクリック conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-663120809/QzASCO_wvMgBEKnXmbwC',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
+</body>
+<!-- InstanceEnd --></html>
