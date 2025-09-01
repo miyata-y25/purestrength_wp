@@ -67,7 +67,12 @@
     <!-- End Google Tag Manager (noscript) -->
     <header>
 			<div>
-				<h1 id="hlogo"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/logo01.svg" alt="ピュアストレングス伊豆長岡"></h1>
+				<h1 id="hlogo">
+                    <picture>
+                        <source media="(min-width:768px)" srcset="<?php echo get_template_directory_uri(); ?>/shared/img/logo01.svg">
+                        <img src="<?php echo get_template_directory_uri(); ?>/shared/img/logo01_sp.svg" alt="ピュアストレングス伊豆長岡">
+                    </picture>
+                </h1>
 				<nav id="gnav-wrap">
 					<ul id="gnav">
 						<li><a href="<?php echo home_url('/'); ?>">Top</a></li>

@@ -32,69 +32,34 @@
 				<h2>Merit</h2>
 				<p class="lead">伊豆長岡初の<br class="sp">本格24時間ジム<br> 《ピュアストレングス伊豆長岡》<br class="sp">の特長</p>
 				<ul>
-					<li class="no01">
-						<p class="ttl">安全・万全の<br> セキュリティ</p>
-						<p>24時間365日<br> ALSOKがサポート！
-								<br> 女性も安心・安全、
-								<br> ICカード/バンドで
-								<br> 自動チェックイン！
-						</p>
-					</li>
-					<li class="no02">
-						<p class="ttl">お財布に優しい<br> 納得の低価格</p>
-						<p>女性会員6,380円<small>(税込)</small>/月<br> 男性会員7,128円<small>(税込)</small>/月
-								<br> これだけで24時間
-								<br> いつでもエクササイズ！
-						</p>
+					<li class="no13">
+						<p class="ttl">QRコードで<br>入退館</p>
 					</li>
 					<li class="no03">
 						<p class="ttl">地域最大級の<br> ウェイトトレーニング
 								<br> マシン数
 						</p>
-						<p>テクノジム社の<br> 最新鋭マシン導入！
-								<br> 初心者から中上級者
-								<br> 向けまで多数！
-						</p>
-					</li>
-					<li class="no04">
-						<p class="ttl">水素水<br> 無料飲み放題
-						</p>
-						<p>運動後の水分補給に<br> 高濃度水素水を！
-								<br> いつでも無料で
-								<br> お飲みいただけます！
-						</p>
 					</li>
 					<li class="no05">
 						<p class="ttl">トレーニング<br> サポート完備
-						</p>
-						<p>運動初心者OK！<br> ご希望の方には
-								<br> トレーニングメニューを
-								<br> 作成し、指導します！
-								<br> （無料・予約制）
 						</p>
 					</li>
 					<li class="no06">
 						<p class="ttl">女性に嬉しい<br> マシン完備
 						</p>
-						<p>女性らしい<br> ボディラインづくりに
-								<br> 欠かせないマシンを完備。
+					</li>
+					<li class="no04">
+						<p class="ttl">水素水<br> 無料飲み放題
 						</p>
+					</li>
+					<li class="no14">
+						<p class="ttl">体組成測定<br>TANITA完備</p>
+					</li>
+					<li class="no15">
+						<p class="ttl">オープンロッカー<br>完備</p>
 					</li>
 					<li class="no07">
-						<p class="ttl">タンニング<br>
-								<small>¥</small>500<small>(税込)/10分</small></p>
-						<p>高出力タンニング<br> 完備！
-								<br> 年中、健康的な
-								<br> 日焼け肌に！
-						</p>
-					</li>
-					<li class="no08">
-						<p class="ttl">コラーゲンマシン<br>
-								<small>¥</small>500<small>(税込)/20分</small></p>
-						<p>アスリートにもファンが多い<br> コラーゲンマシン導入！
-								<br> トレーニング後の
-								<br> 疲労回復やケガ予防に！
-						</p>
+						<p class="ttl">タンニング<br><small>税込 ¥</small>500<small>/10分</small></p>
 					</li>
 					<li class="no09">
 						<p class="ttl">24時間営業<br> 年中無休
@@ -109,8 +74,7 @@
 						</p>
 					</li>
 					<li class="no12">
-						<p class="ttl">契約ロッカー<br>
-								<small>¥</small>1,100<small>(税込)</small></p>
+						<p class="ttl">契約ロッカー<br><small>¥</small>1,000<small>+税</small></p>
 					</li>
 				</ul>
 				<p class="big">気軽に快適にトレーニングしていただけるよう、細部に配慮しました。</p>
@@ -249,6 +213,7 @@
 									</p>
 									<p>トレーニング初心者にとっては、マシンをどう扱っていいのかわからない。 <br> 「筋トレしてみたい」とか 「痩せたい」 「運動不足解消したい」 「筋力UPしたい」 など目的は人によって様々で、基礎体力や運動経験も人それぞれ。<br> せっかく24時間いつでもトレーニングができるのに、正しいマシンの使い方がわからないままでは成果もでにくく、運動が続かない原因になります。ここなら24ジムなのに、トレーニングサポートがあるので、安心です！
 									</p>
+									<p><img src="<?php echo get_template_directory_uri(); ?>/shared/img/top-sec02-img08.svg" alt=""></p>
 									<figure><img src="<?php echo get_template_directory_uri(); ?>/shared/img/top-sec02-img04.png" alt="" class="pc"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/top-sec02-img04-sp.png" alt="" class="sp"></figure>
 							</section>
 							<section id="top-sec02-05">
@@ -257,6 +222,7 @@
 											<br> トレーニングを指導します！
 									</p>
 									<p>フリーウェイトトレーニング人気の今、始めてみたいと思っていても中上級者が多く、気後れしそうという初心者の方に、ここならサポートも完備しているので安心！ 正しいマシンの使い方やフォームを丁寧に指導し、お一人おひとりに応じたサポートをいたします。 また、トレーニングバリエーションも提案できるので、飽きずに続けられ成果にも応えられます。</p>
+									<p><img src="<?php echo get_template_directory_uri(); ?>/shared/img/top-sec02-img09.svg" alt=""></p>
 									<figure class="sp"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/top-sec02-img07.png" alt=""></figure>
 							</section>
 							<section id="top-sec02-06">
@@ -314,6 +280,13 @@
                       </span> -->
                     </div>
 									</li>
+									<li class="big">
+                    <div>
+											<p class="ttl">ビジター利用</p>
+											<p class="sub">1回利用</p>
+											<p class="price">¥<span>2,750</span>(税込)</p>
+                    </div>
+									</li>
 							</ul>
 							<h3 class="option-title">OPTION</h3>
 							<ul>
@@ -331,19 +304,17 @@
 							</ul>
 					</section>
 					<section id="top-sec04">
-							<h2>ご入会方法</h2>
-							<p>① WEB入会フォームよりお客様情報をご登録<br><small>※店頭でのご登録も可能です。</small></p>
-							<p>② 店舗へお越しいただき、入会お手続きを完了</p>
-							<p>③ 入会時諸費用のお支払い後、会員証（出入口カードキー）のお渡し</p>
-              <h3>《高校生会員ご希望の皆様へ》</h3>
-              <p>入会手続きの際は、必ず親権者様と一緒にお越しください。</p>
+							<h2>入会もカンタン！</h2>
+							<p class="bold">WEB入会登録完了後、店頭へお越しいただき<br class="sp">入会手続きを完了してください。</p>
+							<p class="bold red">入会時諸費用をお支払い後、<br>入退館用QRコードの発行をさせていただきます。</p>
 							<h3>《お持ちいただく物》</h3>
 							<ul>
-              <li>入会登録料 + 2ヶ月分月会費<br><small>※キャンペーンにより金額が異なります。<br>※お支払い方法は①～③のみとなります。<br>①現金 ②PayPay ③LINEPay</small></li>
-              <li>本人確認書類<br><small>（免許証、住所付き保険証 など）</small></li>
-              <li>金融機関キャッシュカード<br><small>※高校生の方は親権者の<br>キャッシュカードでご登録いたします。</small></li>
-              <li>高校在学を証明できるもの<br><small>（学生証など）<br>※高校生会員ご希望の方のみ</small></li>
+              <li>入会登録料 + 初月分・次月分月会費 <br class="sp">まとめて <span>8,800</span>円(税込)<br><small>※お支払い方法は現金 、PayPayのみとなります。</small></li>
+              <li class="half">本人確認書類<br class="sp">（免許証など）</li>
+              <li class="half">金融機関<br class="sp">キャッシュカード</li>
 							</ul>
+              <h3>《高校生会員ご希望の皆様へ》</h3>
+              <p>お手続きの際は、学生証のご提示をお願いいたします。<br>また、入会手続きの際は、必ず親権者様と一緒にお越しください。<br><small>※親権者様のキャッシュカードでご登録させていただきます。</small></p>
 					</section>
           <div class="top-pr">
             <p><img src="<?php echo get_template_directory_uri(); ?>/shared/img/top-pr-txt01.svg" alt="ジム活スタートキャンペーン 先着150名様限定"></p>
@@ -393,7 +364,7 @@
 								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3266.978287473101!2d138.92883921524106!3d35.03227308035064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601993b9c5311d85%3A0x5c823789a59465f3!2z44CSNDEwLTIyMTEg6Z2Z5bKh55yM5LyK6LGG44Gu5Zu95biC6ZW35bKh77yR77yS77yW4oiS77yV!5e0!3m2!1sja!2sjp!4v1582593965808!5m2!1sja!2sjp"
 										width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 							</div>
-							<p class="open">24時間営業・年中無休<br> ジムスタッフ対応時間／11:00〜20:00<br>（月曜/木曜/臨時スタッフ不在日を除く）</p>
+							<p class="open">24時間営業・年中無休<br>スタッフ対応時間 / 11:00〜20:00<br class="sp">（月曜・木曜・臨時スタッフ不在日を除く）</p>
 					</section>
 					<!-- InstanceEndEditable -->
 			</div>

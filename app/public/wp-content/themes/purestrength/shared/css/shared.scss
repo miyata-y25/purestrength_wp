@@ -119,7 +119,7 @@ ul.kome > li {
 		width: 48%;
 		@for $n from 1 through 11 {
 			&.col-in#{$n} {
-				width: calc(#{8.33 * $n}% - 1.5%);
+				width: calc(#{8.33% * $n} - 1.5%);
 			}
 		}
 		&.col-in12 {
@@ -357,21 +357,26 @@ header {
 	top: 0;
 	left: 0;
 	width: 100%;
-	padding-top: 1.1rem;
-	padding-bottom: 1.1rem;
+	// padding-top: 1.5rem;
+	// padding-bottom: 1.5rem;
 	line-height: 1.2;
 	background: #fff;
+	height: 69px;
 	a {
 		text-decoration: none;
 	}
 	> div {
 		display: flex;
-		max-width: 1200px;
+		align-items: center;
+		max-width: none;
+		height: 100%;
 	}
 }
 #hlogo {
 	line-height: 1;
 	//width: 31.5rem;
+	max-width: 1025px;
+	width: percentage(1025/1890);
 }
 #gnav {
 	@extend %font01;
@@ -405,19 +410,6 @@ header {
 	#hnav {
 		right: 60px;
 	}
-	#gnav-wrap {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column;
-		z-index: 3;
-		width: 100% !important;
-		height: 100%;
-		padding: 50px 20px;
-		background: rgba(255,255,255,.95);
-		overflow-y: auto;
-		transition: none;
-	}
 	#gnav {
 		display: block;
 		text-align: center;
@@ -428,6 +420,19 @@ header {
 				margin-top: 0;
 			}
 		}
+	}
+	#gnav-wrap {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		z-index: 3;
+		width: 100% !important; 
+		height: 100%;
+		padding: 50px 20px;
+		background: rgba(255,255,255,.95);
+		overflow-y: auto;
+		transition: none;
 	}
 	.drawer-hamburger {
 		display: block;
@@ -655,7 +660,7 @@ main
 					background-image: url("../img/icon01-0#{$n}.svg");
 				}
 			}
-			@for $n from 10 through 12 {
+			@for $n from 10 through 15 {
 				&.no#{$n}::before {
 					background-image: url("../img/icon01-#{$n}.svg");
 				}
@@ -878,8 +883,8 @@ main
 		position: relative;
 		img {
 			position: absolute;
-			bottom: -150px;
-			right: calc(50% + 160px);
+			bottom: -200px;
+			right: calc(50% + 180px);
 			max-width: 40% !important;
 		}
 	}
@@ -1172,7 +1177,8 @@ main
 	font-size: 2.4rem;
 	text-align: center;
 	> * {
-		margin-top: 40px;
+		margin-top: 1.5em;
+		font-weight: 500;
 		&:first-child {
 			margin-top: 0;
 		}
@@ -1181,6 +1187,18 @@ main
 	h3 {
 		@extend %font02;
 		font-size: 2.3rem;
+	}
+	h2 {
+		border: 3px solid #000;
+		max-width: (420em/23);
+		padding: 0.5em;
+		color: #000;
+	}
+	.bold {
+		font-weight: bold;
+	}
+	.red {
+		color: #cf0066;
 	}
 	.lead {
 		font-size: 3.4rem;
@@ -1200,9 +1218,9 @@ main
 		li {
 			font-size: 2.8rem;
 			font-weight: bold;
-			padding: 10px;
+			padding: 0.5em 0.75em;
 			border-top: 1px solid;
-      width: 50%;
+			width: 100%;
       /*
 			&:first-child {
 				width: 100%;
@@ -1214,14 +1232,16 @@ main
 				}
 			}
       */
-			&:nth-child(2) {
-				// width: 55%;
-        border-left: 1px solid;
+			&.half {
+				width: 50%;
+				&:nth-child(odd) {
+					border-left: 1px solid;
+				}
 			}
-			&:last-child {
-				// width: 45%;
-				border-left: 1px solid;
-			}
+			// &:last-child {
+			// 	// width: 45%;
+			// 	border-left: 1px solid;
+			// }
 			span {
 				font-size: 4.7rem;
 				letter-spacing: .05em;
