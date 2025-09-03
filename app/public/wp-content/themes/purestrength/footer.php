@@ -3,7 +3,7 @@
             <address>
               <p><a href="https://strength-f.com/" target="_blank">運営会社／ストレングス・フィット合同会社</a></p>
             </address>
-            <p class="privacy"><a href="../shared/pdf/privacypolicy.pdf" target="_blank">プライバシーポリシー</a></p>
+            <p class="privacy"><a href="<?php echo esc_url(home_url()); ?>/shared/light/privacypolicy.pdf" target="_blank">プライバシーポリシー</a></p>
             <ul id="fsns">
                 <li>
                     <a href="https://www.facebook.com/purestrength.official/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/shared/img/sns-fb.svg" alt="Facebook"></a>

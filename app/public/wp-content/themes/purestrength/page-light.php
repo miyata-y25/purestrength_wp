@@ -150,12 +150,12 @@ get_header('light');
           </h2>
           <p class="lead fwBold">運動初心者でも楽しみながら成果にこだわれる<br class="il-hide-md">“新感覚ジム”。</p>
         </div>
-        <figure class="max-width-none full-width taC"><img class="il-hide-md" src="<?php echo esc_url(home_url()); ?>/shared/light/img/pic-facility-01.webp" alt="施設概要図"><img class="il-show-md" src="<?php echo esc_url(home_url()); ?>/shared/light/img/pic-facility-01-pc.webp" alt="施設概要図" width="1257">
+        <figure class="max-width-none full-width taC"><img class="il-hide-md" src="<?php echo esc_url(home_url()); ?>/shared/light/img/pic-facility-01.png" alt="施設概要図"><img class="il-show-md" src="<?php echo esc_url(home_url()); ?>/shared/light/img/pic-facility-01-pc.png" alt="施設概要図" width="1257">
         </figure>
-        <div class="layout-2">
+        <!-- <div class="layout-2">
           <p class="point clGreen fwHeavy"><em>テクノジム社の<br class="il-hide-md">最新有酸素マシン計11台も完備！</em></p>
           <p class="body">20分のバイオサーキットトレーニングだけじゃない。<br>専用アプリを使用してログインすれば運動履歴も残せます。<br class="il-show-md">ガイドにあわせて簡単にトレーニングができます。</p>
-        </div>
+        </div> -->
         <h3 class="taC">こだわりの設備ラインナップ</h3>
         <ul class="facility-list max-width-none full-width taC fwBold">
           <li>24時間営業<br>年中無休</li>
@@ -328,8 +328,6 @@ get_header('light');
           <dd><span>満16歳以上の方でしたら、親権者様の同意があればご入会いただけます。<small class="db">※入会申込書の保護者記入欄にご記入ください。<br>★16歳～18歳の高校生会員ご希望の方は下記点にご注意ください。<br>・ご利用可能時間　5:00～22:00（22:00～5:00の間は入退店ができなくなります。）<br>・ご入会の際は、必ず親権者様と一緒に店舗へお越しください。</small></span></dd>
           <dt><span>月会費の支払い方法は？</span></dt>
           <dd><span>入会時に金融機関の口座情報をご登録いただき、毎月26日（金融機関休業日の場合は翌営業日）に翌月分の月会費を口座振替にて引落しさせていただきます。</span></dd>
-          <dt><span>口座振替にご利用できる金融機関は？</span></dt>
-          <dd><span>一部ご利用になれない金融機関・キャッシュカードがございます。<br>届出印が必要となる金融機関もございますため、詳しくは店舗へお問い合わせください。</span></dd>
           <dt><span>領収書の発行はできますか？</span></dt>
           <dd><span>手書き領収書の発行が可能です。スタッフまでお申し付けください。</span></dd>
           <dt><span>会員証が紛失、破損してしまいました。どうすればよいですか？</span></dt>
