@@ -1079,9 +1079,7 @@ body {
 
 .single-area,
 .page-area {
-    @include max-screen($screen-xl) {
-        font-size: (12em/8);
-    }
+    font-size: max((18em/16), 14px) !important;
     max-width: 1000px;
     margin: 0 auto 5em;
     &__date {
@@ -1122,29 +1120,41 @@ body {
         }
     }
     h2 {
-        font-size: (24em/16);
+        font-size: (24em/18);
         background: #f2f2f2;
         border-left: (6em/24) solid $ora;
         padding: 0.75em 0.5em;
     }
     h3 {
-        font-size: (20em/16);
+        font-size: (20em/18);
         background: $ora;
         color: #FFF;
         padding: 0.5em 0.75em;
     }
     h4 {
-        font-size: (20em/16);
+        font-size: (20em/18);
         border-bottom: 2px solid $ora;
         padding: 0.5em 0;
     }
     h5 {
-        font-size: (16em/16);
+        font-size: (18em/18);
         background: #f2f2f2;
         padding: 0.75em 0.5em;
     }
     h6 {
-        font-size: (16em/16);
+        font-size: (18em/18);
+    }
+    .has-small-font-size {
+        font-size: max((14em/18), 11px) !important;
+    }
+    .has-medium-font-size {
+        font-size: max((18em/18), 14px) !important;
+    }
+    .has-large-font-size {
+        font-size: max((24em/18), 18px) !important;
+    }
+    .has-x-large-font-size {
+        font-size: max((28em/18), 22px) !important;
     }
 }
 

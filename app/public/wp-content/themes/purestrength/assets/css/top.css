@@ -1302,14 +1302,9 @@
 
 .single-area,
 .page-area {
+  font-size: max(1.125em, 14px) !important;
   max-width: 1000px;
   margin: 0 auto 5em;
-}
-@media screen and (max-width: 1366px) {
-  .single-area,
-  .page-area {
-    font-size: 1.5em;
-  }
 }
 .single-area__date,
 .page-area__date {
@@ -1366,21 +1361,21 @@
 }
 .single-area h2,
 .page-area h2 {
-  font-size: 1.5em;
+  font-size: 1.3333333333em;
   background: #f2f2f2;
   border-left: 0.25em solid #ff9c00;
   padding: 0.75em 0.5em;
 }
 .single-area h3,
 .page-area h3 {
-  font-size: 1.25em;
+  font-size: 1.1111111111em;
   background: #ff9c00;
   color: #FFF;
   padding: 0.5em 0.75em;
 }
 .single-area h4,
 .page-area h4 {
-  font-size: 1.25em;
+  font-size: 1.1111111111em;
   border-bottom: 2px solid #ff9c00;
   padding: 0.5em 0;
 }
@@ -1393,6 +1388,22 @@
 .single-area h6,
 .page-area h6 {
   font-size: 1em;
+}
+.single-area .has-small-font-size,
+.page-area .has-small-font-size {
+  font-size: max(0.7777777778em, 11px) !important;
+}
+.single-area .has-medium-font-size,
+.page-area .has-medium-font-size {
+  font-size: max(1em, 14px) !important;
+}
+.single-area .has-large-font-size,
+.page-area .has-large-font-size {
+  font-size: max(1.3333333333em, 18px) !important;
+}
+.single-area .has-x-large-font-size,
+.page-area .has-x-large-font-size {
+  font-size: max(1.5555555556em, 22px) !important;
 }
 
 .page-area > *:not(:last-child) {

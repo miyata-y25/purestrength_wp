@@ -1,6 +1,6 @@
 <?php get_header('flower'); ?>
 
-<link rel='stylesheet' id='wp-block-library-css' href='/wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css' href='<?php echo esc_url(home_url()); ?>/wp-includes/css/dist/block-library/style.min.css' type='text/css' media='all' />
 
 <section class="sec-single">
     <h2 class="sec-single__ttl">
