@@ -47,6 +47,19 @@
     <p class="news-more anim slideinB"><a href="<?php echo home_url('/'); ?>flower/flower-info/">お知らせ一覧</a></p>
 </section>
 
+<section class="event-sec">
+    <h2 class="event-sec__ttl anim slideinB">
+        <picture class="">
+            <source media="(min-width:769px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/event_img.png">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/event_img_sp.png" alt="無料 OPEN前内覧会開催! 10/6mon~14tue 11:00〜20:00 ">
+        </picture>
+    </h2>
+    <p class="event-sec__txt anim slideinB">
+        ★事前にWEB登録いただいた方の入会本登録と<br class="sp-show">AIトレーニングマシンの初期設定も実施します
+        <span>※AIトレーニングマシンのご利用には必ず初期設定が必要です。</span>
+    </p>
+</section>
+
 <div class="camp-area anim slideinB">
     <picture>
         <source media="(min-width:769px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/camp_img.png">
