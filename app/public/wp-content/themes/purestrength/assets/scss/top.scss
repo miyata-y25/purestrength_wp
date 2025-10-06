@@ -1030,7 +1030,7 @@ body {
     }
     &__note {
         border: 1px solid #333a46;
-        padding: 0.5em 1em;
+        padding: 1em;
         font-size: (21em/16);
         text-align: center;
         @include max-screen($screen-sm) {
@@ -1038,6 +1038,14 @@ body {
             margin: 0 auto;
             font-size: (12em/8);
 
+        }
+        .tel {
+            font-size: (32em/16);
+            margin-top: 0.25em;
+            display: block;
+            line-height: 1.2;
+            font-weight: bold;
+            text-align: center;
         }
     }
 }

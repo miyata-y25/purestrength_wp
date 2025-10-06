@@ -408,7 +408,10 @@
                 </div>
             </div>
         </div>
-        <p class="access-area__note anim slideinB">24時間営業・年中無休<br class="sp-show"> スタッフ対応時間／11:00〜20:00<br class="sp-show">（月・木・臨時スタッフ不在日を除く）</p>
+        <p class="access-area__note anim slideinB">
+            24時間営業・年中無休<br class="sp-show"> スタッフ対応時間／11:00〜20:00<br class="sp-show">（月・木・臨時スタッフ不在日を除く）<br>
+            <span class="tel"><a href="tel:0559607513">055-960-7513</a></span>
+        </p>
     </div>
 </section>
 
