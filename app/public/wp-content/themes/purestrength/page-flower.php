@@ -47,6 +47,7 @@
     <p class="news-more anim slideinB"><a href="<?php echo home_url('/'); ?>flower/flower-info/">お知らせ一覧</a></p>
 </section>
 
+<?php /*
 <section class="event-sec">
     <h2 class="event-sec__ttl anim slideinB">
         <picture class="">
@@ -59,6 +60,7 @@
         <span>※AIトレーニングマシンのご利用には必ず初期設定が必要です。</span>
     </p>
 </section>
+*/?>
 
 <div class="camp-area anim slideinB">
     <picture>
