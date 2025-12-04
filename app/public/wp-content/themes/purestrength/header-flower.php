@@ -16,7 +16,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta content="IE=edge" http-equiv="X-UA-Compatible" />
 <meta content="telephone=no" name="format-detection" />
 <meta content="" name="keywords" />
-<meta content="" name="description" />
+<meta content="沼津初！24時間フィットネス×バーチャルスタジオが楽しめる女性専用ジム。忙しい毎日でも好きな時に楽しくボディメイク！まずは見学にお越しください。" name="description" />
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/base.css" rel="stylesheet" type="text/css" />
 <link href="<?php echo get_template_directory_uri(); ?>/assets/css/top.css" rel="stylesheet" type="text/css" />
 <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/assets/img/favicon.ico" sizes="32x32">
