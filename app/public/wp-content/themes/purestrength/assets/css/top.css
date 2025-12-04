@@ -1051,8 +1051,8 @@
 }
 @media screen and (max-width: 768px) {
   .other-area__img.--lg {
-    width: auto;
-    padding: 0 2% 0 0;
+    width: 90%;
+    padding: 0;
   }
 }
 .other-area__bdy {
@@ -1539,5 +1539,137 @@
   .event-sec__txt {
     font-size: 1.5em;
     margin-top: 1.5em;
+  }
+}
+
+.taC {
+  text-align: center;
+}
+
+#joining {
+  background: url("../img/top/bg-joining-01.webp") no-repeat center top/100%;
+  padding: 32% 15px 3em;
+  margin: 2.625em 0;
+  font-weight: bold;
+  font-family: "Zen Maru Gothic", serif;
+  font-size: 1.3em;
+}
+#joining > * {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 769px) {
+  #joining > * {
+    width: 89.9470899471%;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  #joining {
+    background: url("../img/top/bg-joining-01-pc.webp") no-repeat center 4em/8em auto;
+    height: auto;
+    padding: 15em 15px 3em;
+    margin: 0 0 136px;
+    font-size: 1.5em;
+  }
+}
+#joining h2 {
+  width: 15.3333em;
+  padding: 0.3em;
+  margin: auto;
+  margin-bottom: 1em;
+  border: 0.125em solid currentColor;
+  border-radius: 0.83em;
+}
+
+#joining p.attention {
+  font-size: 145.833%;
+  margin-bottom: 0.3em;
+}
+
+#joining p.caution {
+  font-size: 112.5%;
+}
+
+#joining p.startImg {
+  margin-bottom: 0.2em;
+}
+
+#joining p.strong {
+  color: #cf0066;
+  font-size: 125%;
+  line-height: 1.5;
+  margin-bottom: 1.8em;
+}
+
+#joining h3 {
+  margin-bottom: 0.4em;
+}
+
+#joining h3 + p {
+  margin-bottom: 0.6em;
+}
+
+@media only screen and (min-width: 1100px) {
+  #joining h3 + p {
+    margin-bottom: 0.1em;
+  }
+}
+#joining .joining-list {
+  font-size: 145.833%;
+  line-height: 1.2;
+  border: 0.4vw solid currentColor;
+  border-radius: 0.46em;
+  margin-bottom: 1em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media only screen and (min-width: 1100px) {
+  #joining .joining-list {
+    border-width: 3px;
+  }
+}
+#joining .joining-list p {
+  padding: 1em;
+  margin-bottom: 0;
+}
+
+#joining .joining-list .kaihi {
+  padding: 0.7em 0 0.5em;
+  grid-column: span 2;
+  border-bottom: 0.27vw solid currentColor;
+}
+
+@media only screen and (min-width: 1100px) {
+  #joining .joining-list .kaihi {
+    border-width: 2px;
+  }
+}
+#joining .joining-list .kaihi p {
+  padding: 0;
+}
+
+@media only screen and (min-width: 1100px) {
+  #joining .joining-list .kaihi p span.db {
+    display: inline-block;
+    margin-right: 1em;
+  }
+}
+#joining .joining-list .kaihi .num {
+  font-size: 171.429%;
+}
+
+#joining .joining-list .kaihi small.fwNormal {
+  font-size: 62.857%;
+}
+
+#joining .joining-list p.id {
+  border-right: 0.27vw solid currentColor;
+}
+
+@media only screen and (min-width: 1100px) {
+  #joining .joining-list p.id {
+    border-width: 2px;
   }
 }

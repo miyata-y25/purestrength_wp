@@ -100,10 +100,11 @@
     <div class="appeal-cont">
         <h3 class="appeal-cont__ttl anim slideinB"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/appeal_ttl03.svg" alt="魅力03"></h3>
         <div class="appeal-area">
-            <h4 class="appeal-area__ttl anim slideinB">様々なサポートを無料で実施！</h4>
+            <h4 class="appeal-area__ttl anim slideinB">初心者の方でも安心！<br class="sp-show">しっかりサポート◎</h4>
+            <p class="appeal-area__txt anim slideinB">マシン設定＋オリエンテーション実施（約1時間30分）</p>
             <picture class="appeal-area__img01 anim slideinB">
-                <source media="(min-width:769px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/appeal_area_img03.svg">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/appeal_area_img03_sp.svg" alt="">
+                <source media="(min-width:769px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/appeal_area_img03.png">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/appeal_area_img03_sp.png" alt="">
             </picture>
         </div>
     </div>
@@ -171,7 +172,7 @@
 <section class="studio-sec">
     <h2 class="studio-sec__ttl anim slideinB">Studio</h2>
     <p class="studio-sec__read anim slideinB">バーチャル映像レッスン</p>
-    <p class="studio-sec__txt anim slideinB">約200インチのスクリーンに映し出す<br>映像プログラムは圧巻！</p>
+    <p class="studio-sec__txt anim slideinB">大型スクリーンに映し出す<br>映像プログラムは圧巻！</p>
     <figure class="studio-sec__logo anim slideinB"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/studio_logo.svg" alt="LesMills ロゴ"></figure>
     <p class="studio-sec__abs">
         <span>世界中で人気のレズミルズプログラムが</span><br><span>24時間楽しめる最先端バーチャルスタジオ！</span>
@@ -293,11 +294,12 @@
         </h3>
         <div class="other-area__bdy">
             <picture class="other-area__img --lg anim slideinB">
-                <source media="(min-width:769px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/other_img04.png">
+                <source media="(min-width:769px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/other_img04.svg">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/other_img04_sp.svg" alt="">
             </picture>
         </div>
     </div>
+    <?php /*
     <div class="other-area">
         <h3 class="other-area__ttl">
             <picture class=" anim slideinB">
@@ -312,6 +314,7 @@
             </picture>
         </div>
     </div>
+    */?>
 </section>
 
 <section class="sec --price">
@@ -331,6 +334,24 @@
         <a href="https://www.slim-sng.jp/slim/web/d/sng/web_admission_procedure/?c=Pu7T3mDs2z&f=00003"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/camp_btn.svg" alt="WEB入会はコチラから！"></a>
     </div>
 </div>
+
+<section class="taC" id="joining">
+    <h2 class=" anim slideinB">入会もカンタン！</h2>
+    <p class="caution fwBold anim slideinB">WEB入会登録完了後、<br class="sp-show">店頭へお越しいただき入会手続きを完了してください。</p>
+    <p class="strong fwBold anim slideinB">入会時諸費用をお支払い後、<br>入退館用QRコードの発行、初期設定の<br class="sp-show">ご予約をお取りいたします。</p>
+    <h3 class="fwMed anim slideinB">《お持ちいただく物》</h3>
+    <div class="joining-list fwBold full-width anim slideinB">
+        <div class="kaihi">
+        <p>入会登録料 + 初月分・次月分月会費 <br class="sp-show">まとめて <span class="num">8,800</span><small>円(税込)</small></p>
+        <p><small class="fwNormal">※お支払い方法は現金 、PayPayのみとなります。</small></p>
+        </div>
+        <p class="id">本人確認書類<br class="sp-show">（免許証など）</p>
+        <p class="card">金融機関<br class="sp-show">キャッシュカード</p>
+    </div>
+    <h3 class="fwMed anim slideinB">《高校生会員ご希望の皆様へ 》</h3>
+    <p class=" anim slideinB">お手続きの際は、学生証のご提示をお願いいたします。<br>また、入会手続きの際は、必ず親権者様と一緒にお越しください。</p>
+    <p class=" anim slideinB"><small class="fwNormal">※親権者様のキャッシュカードでご登録させていただきます。</small></p>
+</section>
 
 <section class="sec --faq">
     <h2 class="sec__ttl anim slideinB">FAQ</h2>
