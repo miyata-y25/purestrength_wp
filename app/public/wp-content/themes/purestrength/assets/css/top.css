@@ -239,6 +239,11 @@
   font-family: 500;
   margin-bottom: 1em;
 }
+.camp-area__balloon {
+  text-align: center;
+  margin: 1em auto;
+  width: 30em;
+}
 
 .appeal-sec {
   padding: 5em 15px 0;

@@ -218,6 +218,11 @@ body {
         font-family: 500;
         margin-bottom: 1em;
     }
+    &__balloon {
+        text-align: center;
+        margin: 1em auto;
+        width: (480em/16);
+    }
 }
 
 .appeal-sec {

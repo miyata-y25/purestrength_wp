@@ -68,7 +68,8 @@
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/camp_img_sp.png" alt="OPEN CAMPAIGN!">
     </picture>
     <div class="camp-area__btn">
-        <p class="camp-area__txt">ピュアストレングスは在籍期間の条件や解約の違約金等ございません。</p>
+        <p class="camp-area__txt">ピュアストレングスは在籍期間の条件や<br class="sp-show">解約の違約金等ございません。</p>
+        <p class="camp-area__balloon"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/camp_balloon.svg" alt="クレカ登録なし‼︎でカンタン予約"></p>
         <a href="https://www.slim-sng.jp/slim/web/d/sng/web_admission_procedure/?c=Pu7T3mDs2z&f=00003"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/camp_btn.svg" alt="WEB入会はコチラから！"></a>
     </div>
 </div>
@@ -101,7 +102,6 @@
         <h3 class="appeal-cont__ttl anim slideinB"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/appeal_ttl03.svg" alt="魅力03"></h3>
         <div class="appeal-area">
             <h4 class="appeal-area__ttl anim slideinB">初心者の方でも安心！<br class="sp-show">しっかりサポート◎</h4>
-            <p class="appeal-area__txt anim slideinB">マシン設定＋オリエンテーション実施（約1時間30分）</p>
             <picture class="appeal-area__img01 anim slideinB">
                 <source media="(min-width:769px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/appeal_area_img03.png">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/appeal_area_img03_sp.png" alt="">
@@ -331,6 +331,8 @@
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/camp_img_sp.png" alt="OPEN CAMPAIGN!">
     </picture>
     <div class="camp-area__btn">
+        <p class="camp-area__txt">ピュアストレングスは在籍期間の条件や<br class="sp-show">解約の違約金等ございません。</p>
+        <p class="camp-area__balloon"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/camp_balloon.svg" alt="クレカ登録なし‼︎でカンタン予約"></p>
         <a href="https://www.slim-sng.jp/slim/web/d/sng/web_admission_procedure/?c=Pu7T3mDs2z&f=00003"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/camp_btn.svg" alt="WEB入会はコチラから！"></a>
     </div>
 </div>
