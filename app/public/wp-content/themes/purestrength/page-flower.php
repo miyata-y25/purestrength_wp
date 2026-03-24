@@ -344,7 +344,7 @@
     <h3 class="fwMed anim slideinB">《お持ちいただく物》</h3>
     <div class="joining-list fwBold full-width anim slideinB">
         <div class="kaihi">
-        <p>入会登録料 + 初月分・次月分月会費 <br class="sp-show">まとめて <span class="num">8,800</span><small>円(税込)</small></p>
+        <p>入会登録料 + 初月分・次月分月会費 <br class="sp-show">まとめて <span class="num">5,980</span><small>円(税込)</small></p>
         <p><small class="fwNormal">※お支払い方法は現金 、PayPayのみとなります。</small></p>
         </div>
         <p class="id">本人確認書類<br class="sp-show">（免許証など）</p>
