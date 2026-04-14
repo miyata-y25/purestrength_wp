@@ -552,13 +552,29 @@ sup {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        max-width: 620px;
+        max-width: 900px;
         margin: 0 auto;
+        flex-wrap: wrap;
+        @include max-screen($screen-sm) {
+            justify-content: center;
+        }
         p {
             font-size: (23em/16);
             font-weight: 500;
             @include max-screen($screen-sm) {
-                font-size: (11em/12);
+                font-size: (14em/12);
+                text-align: center;
+                width: 100%;
+                margin-bottom: 0.5em;
+            }
+            &.privacy {
+                @include max-screen($screen-sm) {
+                    width: auto;
+                    margin-bottom: 0;
+                }
+                a {
+                    color: #FFF;
+                }
             }
         }
         ul {
