@@ -7,26 +7,26 @@
     </picture>
 </div>
 
-<section class="about-sec">
-    <h2 class="about-sec__ttl anim slideinB"><span>男性の目は気にならない！</span>女性のための安心安全24時間フィットネスジム</h2>
-    <picture class="about-sec__img anim slideinB">
-        <source media="(min-width:769px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/about_img.svg">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/about_img_sp.svg" alt="女性専用24時間使い放題 万全のセキュリティ 最新AI機能搭載マシン完備 水素水無料飲み放題">
+<div class="main-camp-area anim slideinB" id="campaign">
+    <picture>
+        <source media="(min-width:769px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/main_camp_img.png">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/main_camp_img_sp.png" alt="OPEN CAMPAIGN!">
     </picture>
-</section>
+    <div class="main-camp-area__btn">
+        <p class="camp-area__balloon"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/main_camp_balloon.svg" alt="クレカ登録なし‼︎でカンタン予約"></p>
+        <a href="https://www.slim-sng.jp/slim/web/d/sng/web_admission_procedure/?c=Pu7T3mDs2z&f=00003"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/camp_btn.svg" alt="WEB入会はコチラから！"></a>
+    </div>
+    <div class="main-camp-area__about">
+        <h2 class="main-camp-area__about__ttl"><span>男性の目は気にならない！</span>女性のための安心安全24時間フィットネスジム</h2>
+        <picture class="about-sec__img anim slideinB">
+            <source media="(min-width:769px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/about_img.svg">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/about_img_sp.svg" alt="女性専用24時間使い放題 万全のセキュリティ 最新AI機能搭載マシン完備 水素水無料飲み放題">
+        </picture>
+        <figure class="main-camp-area__about__img"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/main_about_img.svg" alt=""></figure>
+    </div>
+</div>
 
-<section class="about2-sec">
-    <h2 class="about2-sec__ttl anim slideinB">上質な洗練された空間で<br>好きな時に好きなだけボディメイクが楽しめる。</h2>
-    <p class="about2-sec__txt anim slideinB">
-        「楽しみながらトレーニング」をテーマに、運動初心者も<br class="sp-show">ジム初心者も<br class="pc-show">
-        気兼ねなく通える女性のための<br class="sp-show">フィットネス空間を創りました。<br>
-        24時間セキュリティ監視や、スマホによる非接触の<br class="sp-show">入退館など安全面・衛生面にも<br class="pc-show">
-        とことんこだわり、<br class="sp-show">女性が過ごしやすい快適な環境を追求しました。
-    </p>
-    <p class="about2-sec__note anim slideinB">※画像はイメージです</p>
-</section>
-
-<section class="news-sec">
+<section class="news-sec" id="information">
     <h2 class="news-sec__ttl anim slideinB">INFORMATION</h2>
     <ul class="news-list anim slideinB">
         <?php
@@ -47,34 +47,7 @@
     <p class="news-more anim slideinB"><a href="<?php echo home_url('/'); ?>flower/flower-info/">お知らせ一覧</a></p>
 </section>
 
-<?php /*
-<section class="event-sec">
-    <h2 class="event-sec__ttl anim slideinB">
-        <picture class="">
-            <source media="(min-width:769px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/event_img.png">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/event_img_sp.png" alt="無料 OPEN前内覧会開催! 10/6mon~14tue 11:00〜20:00 ">
-        </picture>
-    </h2>
-    <p class="event-sec__txt anim slideinB">
-        ★事前にWEB登録いただいた方の入会本登録と<br class="sp-show">AIトレーニングマシンの初期設定も実施します
-        <span>※AIトレーニングマシンのご利用には必ず初期設定が必要です。</span>
-    </p>
-</section>
-*/?>
-
-<div class="camp-area anim slideinB">
-    <picture>
-        <source media="(min-width:769px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/camp_img.png">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/camp_img_sp.png" alt="OPEN CAMPAIGN!">
-    </picture>
-    <div class="camp-area__btn">
-        <p class="camp-area__txt">ピュアストレングスは在籍期間の条件や<br class="sp-show">解約の違約金等ございません。</p>
-        <p class="camp-area__balloon"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/camp_balloon.svg" alt="クレカ登録なし‼︎でカンタン予約"></p>
-        <a href="https://www.slim-sng.jp/slim/web/d/sng/web_admission_procedure/?c=Pu7T3mDs2z&f=00003"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/camp_btn.svg" alt="WEB入会はコチラから！"></a>
-    </div>
-</div>
-
-<section class="appeal-sec">
+<section class="appeal-sec" id="point">
     <h2 class="appeal-sec__ttl anim slideinB">ピュアストレングス フラワーは女性の想いに応える<br><span>魅力</span>が<span>たっぷり！</span></h2>
     <div class="appeal-cont">
         <h3 class="appeal-cont__ttl anim slideinB"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/appeal_ttl01.svg" alt="魅力01"></h3>
@@ -110,28 +83,52 @@
     </div>
 </section>
 
+<?php /*
+<section class="event-sec">
+    <h2 class="event-sec__ttl anim slideinB">
+        <picture class="">
+            <source media="(min-width:769px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/event_img.png">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/event_img_sp.png" alt="無料 OPEN前内覧会開催! 10/6mon~14tue 11:00〜20:00 ">
+        </picture>
+    </h2>
+    <p class="event-sec__txt anim slideinB">
+        ★事前にWEB登録いただいた方の入会本登録と<br class="sp-show">AIトレーニングマシンの初期設定も実施します
+        <span>※AIトレーニングマシンのご利用には必ず初期設定が必要です。</span>
+    </p>
+</section>
+*/?>
+
 <section class="dakara-sec">
-    <h2 class="dakara-sec__ttl anim slideinB">だから！</h2>
+    <h2 class="dakara-sec__ttl">だから！</h2>
     <p class="dakara-sec__txt anim slideinB">いままで運動が苦手だった方、ジムに通うのに抵抗があった方<span>ここなら、もう心配ありません！</span></p>
 </section>
 
 <section class="comfort-sec">
     <h2 class="comfort-sec__ttl anim slideinB">Comfortable space only for women</h2>
-    <picture class="comfort-sec__img">
-        <source media="(min-width:769px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/comfort_img01.png">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/comfort_img01_sp.png" alt="ピュアストレングスフラワーは女性の想いに応える安心安全な快適空間をとことん実現しました。">
-    </picture>
-    <figure class="comfort-sec__madori anim slideinB"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/comfort_madori.svg" alt="間取り例"></figure>
-    <div class="comfort-icon">
-        <h3 class="comfort-icon__ttl anim slideinB">24時間安心安全に<br class="sp-show">楽しく過ごせる環境を<br class="pc-show">整えております！</h3>
-        <picture class="comfort-icon__img anim slideinB">
-            <source media="(min-width:769px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/comfort_icon.svg">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/comfort_icon_sp.svg" alt="">
-        </picture>
+    <div class="comfort-about">
+        <h3 class="comfort-icon__ttl anim slideinB">充実の施設をご覧ください!</h3>
+        <div class="comfort-about__cont anim slideinB">
+            <figure><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/ico_view.svg" alt=""></figure>
+            <div class="comfort-about__cont__inner">
+                <h4 class="comfort-about__cont__ttl">WEBで施設を見学!</h4>
+                <p class="comfort-about__cont__txt">ピュアストレングスフラワーの施設内を<br class="sp-show">360°ビューでご覧いただけます</p>
+            </div>
+        </div>
+    </div>
+    <div class="comfort-sec__camera">
+        <iframe width="853" height="480" src="https://my.matterport.com/show/?m=ACBqgpSzp5q&play=1" frameborder="0" allowfullscreen allow="autoplay; fullscreen; web-share; xr-spatial-tracking;"></iframe>
     </div>
 </section>
 
-<section class="facility-sec">
+<section class="comfort-icon">
+    <h3 class="comfort-icon__ttl anim slideinB">24時間安心安全に<br class="sp-show">楽しく過ごせる環境を<br class="pc-show">整えております！</h3>
+    <picture class="comfort-icon__img anim slideinB">
+        <source media="(min-width:769px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/comfort_icon.svg">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/comfort_icon_sp.svg" alt="">
+    </picture>
+</section>
+
+<section class="facility-sec" id="facility">
     <h2 class="facility-sec__ttl anim slideinB">Facility</h2>
     <p class="facility-sec__txt anim slideinB">
         <span>ピュアストレングスフラワーのコンセプトカラー、</span>
@@ -140,7 +137,7 @@
     <p class="facility-sec__note">イメージパース</p>
 </section>
 
-<section class="gym-sec">
+<section class="gym-sec" id="gym">
     <h2 class="gym-sec__ttl anim slideinB">Gym</h2>
     <figure class="gym-sec__logo anim slideinB"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/gym_logo.svg" alt=""></figure>
     <div class="gym-sec__txt anim slideinB">
@@ -169,7 +166,7 @@
     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/gym_img03_lineup_sp.png" alt="マシンラインナップ">
 </picture>
 
-<section class="studio-sec">
+<section class="studio-sec" id="studio">
     <h2 class="studio-sec__ttl anim slideinB">Studio</h2>
     <p class="studio-sec__read anim slideinB">バーチャル映像レッスン</p>
     <p class="studio-sec__txt anim slideinB">大型スクリーンに映し出す<br>映像プログラムは圧巻！</p>
@@ -228,6 +225,16 @@
         </div>
     </div>
     <div class="studio-cont anim slideinB">
+        <h4 class="logo sp-show"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/studio_logo06.png" alt="LesMills DANCE"></h4>
+        <figure class=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/studio_thum06.png" alt=""></figure>
+        <div class="studio-cont__info">
+            <h4 class="logo pc-show"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/studio_logo06.png" alt="LesMills DANCE"></h4>
+            <p class="txt">
+                ダンスを楽しみながら効果的に心拍数を上げて持久力を高める有酸素運動を可能にするワークアウト。<br>シンプルな動きで繰り返しが多いため、習得しやすくダンス初心者にもおすすめなプログラム！
+            </p>
+        </div>
+    </div>
+    <div class="studio-cont anim slideinB">
         <h4 class="logo sp-show"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/studio_logo05.png" alt="LesMills CORE"></h4>
         <figure class=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/studio_thum05.png" alt=""></figure>
         <div class="studio-cont__info">
@@ -239,14 +246,14 @@
     </div>
     <div class="studio-tri">
         <figure class=" anim slideinB"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/studio_tri.svg" alt="年中24時間入退自由でいつでもOK！ 3ヶ月ごとにプログラム内容を更新！ 常に高品質なプログラムが楽しめる！"></figure>
-        <div class="lesson-area anim slideinB">
-            <p class="lesson-area__txt">レズミルズレッスンは毎日24時間ずっと実施中！</p>
-            <a href="https://www.purestrength.jp/flower/flower-info/1133/" class="lesson-area__btn" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/lesson_btn.svg" alt="レズミルズレッスン表はコチラから"></a>
-        </div>
+    </div>
+    <div class="lesson-area anim slideinB">
+        <p class="lesson-area__txt">レズミルズレッスンは毎日24時間ずっと実施中！</p>
+        <a href="https://www.purestrength.jp/flower/flower-info/1133/" class="lesson-area__btn" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/lesson_btn.svg" alt="レズミルズレッスン表はコチラから"></a>
     </div>
 </div>
 
-<section class="sec --other">
+<section class="sec --other" id="other">
     <h2 class="sec__ttl anim slideinB">Other<span>最適なトレーニングをサポートする<br>さまざまなアイテムをご用意！</span></h2>
     <p class="sec__txt anim slideinB">あらゆる思いや目的をもった女性のおチカラになれるよう<br>ピュアストレングス フラワーは<br class="sp-show">至れり尽くせりの24時間フィットネスジムを目指します！</p>
     <div class="other-area">
@@ -262,7 +269,7 @@
         </picture>
     </div>
     <div class="other-area">
-        <h3 class="other-area__ttl">
+        <h3 class="other-area__ttl -yellow">
             <picture class=" anim slideinB">
                 <source media="(min-width:769px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/other_ttl02.svg">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/other_ttl02_sp.svg" alt="高濃度水素水サーバー完備">
@@ -285,8 +292,32 @@
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/other_img03_sp.png" alt="">
         </picture>
     </div>
-    <div class="other-area">
+    <div class="other-area -gray">
         <h3 class="other-area__ttl">
+            <picture class=" anim slideinB">
+                <source media="(min-width:769px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/other_ttl06.svg">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/other_ttl06_sp.svg" alt="振動マシン〈ダイエットトレーナーコア〉">
+            </picture>
+        </h3>
+        <picture class="other-area__img --lg anim slideinB">
+            <source media="(min-width:769px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/other_img06.png">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/other_img06_sp.png" alt="">
+        </picture>
+    </div>
+    <div class="other-area -pink">
+        <h3 class="other-area__ttl -pink">
+            <picture class=" anim slideinB">
+                <source media="(min-width:769px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/other_ttl07.svg">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/other_ttl07_sp.svg" alt="コラーゲンマシン〈ビューコラハイブリッド〉">
+            </picture>
+        </h3>
+        <picture class="other-area__img --md anim slideinB">
+            <source media="(min-width:769px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/other_img07.png">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/other_img07_sp.png" alt="">
+        </picture>
+    </div>
+    <div class="other-area">
+        <h3 class="other-area__ttl -yellow">
             <picture class=" anim slideinB">
                 <source media="(min-width:769px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/other_ttl04.svg">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/other_ttl04_sp.svg" alt="初回時オリエンテーション">
@@ -317,7 +348,7 @@
     */?>
 </section>
 
-<section class="sec --price">
+<section class="sec --price" id="price">
     <h2 class="sec__ttl anim slideinB">Price</h2>
     <picture class="price-img anim slideinB">
         <source media="(min-width:769px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/price_img.svg">
@@ -355,7 +386,7 @@
     <p class=" anim slideinB"><small class="fwNormal">※親権者様のキャッシュカードでご登録させていただきます。</small></p>
 </section>
 
-<section class="sec --faq">
+<section class="sec --faq" id="faq">
     <h2 class="sec__ttl anim slideinB">FAQ</h2>
     <p class="sec__txt anim slideinB">よくある質問にお応えいたします。</p>
     <details class="faq-list aco-cont anim slideinB">
@@ -416,7 +447,7 @@
     </details>
 </section>
 
-<section class="sec --access">
+<section class="sec --access" id="access">
     <h2 class="sec__ttl anim slideinB">ACCESS</h2>
     <div class="access-area">
         <div class="access-cont">

@@ -29,7 +29,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </head>
 
 
-<body>
+<body id="top">
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NCZKDZ8M"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -46,10 +46,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/common/header_txt_sp.svg" alt="女性専用 ジム+スタジオ ピュアストレングス フラワー">
             </picture>
         </h1>
+        <div class="header-btn">
+            <a href="https://www.slim-sng.jp/slim/web/d/sng/web_admission_procedure/?c=Pu7T3mDs2z&f=00003" target="_blank" class="site-header__btn">WEB入会</a>
+            <a href="https://www.purestrength.jp/contact/" class="site-header__btn --gry"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/common/ico_contact.svg" alt="">お問合わせ</a>
+        </div>
+        <button type="button" class="menu-btn"><span><span></span><span></span><span></span></span></button>
         <div class="header-cont">
             <nav class="header-nav">
-                <a href="https://www.slim-sng.jp/slim/web/d/sng/web_admission_procedure/?c=Pu7T3mDs2z&f=00003" target="_blank" class="site-header__btn">WEB入会</a>
-                <a href="https://www.purestrength.jp/contact/" class="site-header__btn --gry"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/common/ico_contact.svg" alt="">お問合わせ</a>
+                <ul class="g-nav">
+                    <li class="g-nav__list"><a href="#top"><span>Top</span></a></li>
+                    <li class="g-nav__list"><a href="#campaign"><span>Campaign</span>キャンペーン</a></li>
+                    <li class="g-nav__list"><a href="#information"><span>Information</span>最新情報</a></li>
+                    <li class="g-nav__list"><a href="#point"><span>Flower’s point</span>フラワーの特長</a></li>
+                    <li class="g-nav__list"><a href="#facility"><span>Facility</span>施設のご案内</a></li>
+                    <li class="g-nav__list"><a href="#gym"><span>Gym area</span>ジムエリアのご案内</a></li>
+                </ul>
+                <ul class="g-nav">
+                    <li class="g-nav__list"><a href="#studio"><span>Studio area</span>スタジオエリアのご案内</a></li>
+                    <li class="g-nav__list"><a href="#other"><span>Other</span>その他の施設のご案内</a></li>
+                    <li class="g-nav__list"><a href="#price"><span>Price</span>料金のご案内</a></li>
+                    <li class="g-nav__list"><a href="#faq"><span>Faq</span>よくある質問</a></li>
+                    <li class="g-nav__list"><a href="#access"><span>Access</span>アクセスのご案内</a></li>
+                </ul>
             </nav>
         </div>
     </div>
