@@ -63,8 +63,8 @@
     <div class="appeal-cont">
         <h3 class="appeal-cont__ttl anim slideinB"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/appeal_ttl02.svg" alt="魅力02"></h3>
         <div class="appeal-area">
-            <h4 class="appeal-area__ttl anim slideinB">高性能な測定機を<br class="sp-show">ラインナップ！</h4>
-            <p class="appeal-area__txt anim slideinB">データはマシンに連携され、<br class="sp-show">お客さまだけの効果的なトレーニングをサポート！</p>
+            <h4 class="appeal-area__ttl anim slideinB">女性に嬉しい<br class="sp-show">無料コンテンツも完備!</h4>
+            <p class="appeal-area__txt anim slideinB">追加料金ゼロ！美しさを磨く<br class="sp-show">こだわりの専用設備が使い放題。</p>
             <picture class="appeal-area__img01 anim slideinB">
                 <source media="(min-width:769px)" srcset="<?php echo get_template_directory_uri(); ?>/assets/img/top/appeal_area_img02.png">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/appeal_area_img02_sp.png" alt="チェックPOINT">
@@ -214,7 +214,7 @@
             </p>
         </div>
     </div>
-    <div class="studio-cont anim slideinB">
+    <!-- <div class="studio-cont anim slideinB">
         <h4 class="logo sp-show"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/studio_logo04.png" alt="LesMills BODYATTACK ロゴ"></h4>
         <figure class=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/studio_thum04.png" alt=""></figure>
         <div class="studio-cont__info">
@@ -223,7 +223,7 @@
                 ランニングやランジ・ジャンプといった動きに、プッシュアップやスクワットなどの筋力トレーニングを組み合わせた全身ワークアウト！<br>初心者から上級者までを満足させるハイエナジーなプログラム！
             </p>
         </div>
-    </div>
+    </div> -->
     <div class="studio-cont anim slideinB">
         <h4 class="logo sp-show"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/studio_logo06.png" alt="LesMills DANCE"></h4>
         <figure class=""><img src="<?php echo get_template_directory_uri(); ?>/assets/img/top/studio_thum06.png" alt=""></figure>
